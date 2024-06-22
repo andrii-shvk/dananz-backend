@@ -1,0 +1,25 @@
+{
+  "name": "dananz-backend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.7",
+    "cors": "^2.8.5",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.15.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.15.1",
+    "express": "^4.19.2"
+  }
+}
