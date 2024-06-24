@@ -19,3 +19,15 @@ model WaitList {
 
   @@map("dananz_list")
 }
+
+model SubmitForm {
+  id    Int     @id @default(autoincrement())
+  firstName String
+  lastName String
+  email String
+  phoneCode String
+  phoneNum String
+  message String
+
+  @@map("dananz_users")
+}
